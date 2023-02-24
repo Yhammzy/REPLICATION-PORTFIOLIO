@@ -1305,6 +1305,9 @@ form
 .sect5 h1{
   font-size: 35px;
 }
+iframe{
+  display: none;
+}
 @media (max-width: 900px){
 
 }
@@ -1425,7 +1428,7 @@ form
   left: unset;
   top: unset;
   /* z-index: 2; */
-  height: 25vh;
+  height: 35vh;
   /* margin-left: 5%; */
   width: 90%;
   padding: unset;
@@ -1443,11 +1446,11 @@ form
   top: unset;
   width: 90%;
   /* z-index: 2; */
-  height: 25vh;
-  padding: 45px 50px;
+  height: 35vh;
+  padding: unset;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   flex-direction: column;
   gap: 10px;
 }
@@ -1458,12 +1461,12 @@ form
   left: unset;
   top: unset;
   /* z-index: 2; */
-  height: 25vh;
+  height: 35vh;
   width: 90%;
-  padding: 45px 50px;
+  padding: unset;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
+  align-items: center;
   flex-direction: column;
   gap: 10px;
 }
@@ -1530,6 +1533,7 @@ form
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 20px;
 }
 .sect3cont{
   display: flex;
@@ -1693,5 +1697,8 @@ form
   border: #fff 1px solid;
   display: none;
   /* width: 280px; */
+}
+iframe{
+  display: none;
 }
 }
