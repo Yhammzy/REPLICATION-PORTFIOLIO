@@ -7,7 +7,6 @@ window.addEventListener('load',function(){
     // overlay.style.opacity = '0';
 })
 document.addEventListener("mousemove", moveCursor);
-
 function moveCursor(e) {
     let x = e.clientX;
     let y = e.clientY;
