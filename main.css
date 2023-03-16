@@ -426,14 +426,14 @@ background: radial-gradient(circle, rgba(199,15,5,1) 0%, rgba(75,1,10,1) 100%);
   width: calc(130% - 80px);
   height: 50vh;
   animation: animateUser 4s linear infinite;
+  padding-top: 10px;
 }
-@keyframes animateUser{
+/* @keyframes animateUser{
   50%{
     right: 50PX;
-    /* top: -50PX; */
     left: 50px;
   }
-}
+} */
 
 .me.appear{
   transform: translatex(0);
@@ -1380,7 +1380,7 @@ iframe{
 .sect6cont5{
   position: absolute;
   right: 70px;
-  top: 100px;
+  bottom: 2650px;
 }
 .cube{
   position: relative;
@@ -1507,7 +1507,6 @@ iframe{
   justify-content: center;
   align-items: center;
   padding: 0;
-  z-index: 67;
   gap: 50px;
   margin-bottom: 20px;
 }
@@ -1518,6 +1517,7 @@ iframe{
   flex-direction: column;
   margin-top: 33%;
   padding-top: 10%;
+  z-index: 67;
 }
 .me{
   width: 100%;
@@ -1838,9 +1838,25 @@ iframe{
   z-index: 10;
   border: #fff 1px solid;
   display: none;
-  /* width: 280px; */
+  /* wi
+  dth: 280px; */
+}
+.sect5 h1{
+  font-size: 23px;
+}
+.socials{
+  display: flex;
+  gap: 10px;
+  color: rgb(153, 153, 153);
 }
 iframe{
   display: none;
 }
+.sect6cont5{
+  position: absolute;
+  right: 140px;
+  bottom: 3580px;
+  z-index: 1;
+}
+
 }
