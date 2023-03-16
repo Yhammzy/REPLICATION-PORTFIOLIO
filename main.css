@@ -1858,5 +1858,8 @@ iframe{
   bottom: 3580px;
   z-index: 1;
 }
+.cursor{
+  display: none;
+}
 
 }
