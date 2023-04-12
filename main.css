@@ -1857,7 +1857,7 @@ iframe{
   right: 150px;
   bottom: 3580px;
   z-index: 1;
-  /* display: none; */
+  display: none;
 }
 .inner-cursor{
   display: none;
