@@ -1459,10 +1459,10 @@ iframe{
   }
   .menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    padding-top: 20px ;
+    padding: 15px 0;
     margin:unset;
   }
   .search{
@@ -1500,7 +1500,7 @@ iframe{
   /* border: 1px solid grey; */
   position: unset;
   padding-left: 20px;
-  padding-top: 30px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
